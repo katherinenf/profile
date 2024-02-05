@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel:wght@300;400;700&family=Cute+Font:wght@300;400;500;700");
+
+body {
+  background-color: #fec601;
+  font-family: "Abel";
+  color: #ea7317;
+  font-size: 12;
+  line-height: 1;
+}
+
+h1,h2,h3 {
+  color: #2364aa;
+  font-family: "Cute Font";
+}
+
+a {
+  color: #620c7c;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0px;
+}
+
+li {
+  display: inline-block;
+}
+
+a:hover {
+  color: #73bfb8;
+}
+
+.icon {
+  size: 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px 50px;
+}
+
+.shadowed {
+  box-shadow: 5px 5px 3px #620c7c;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
