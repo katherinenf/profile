@@ -11,6 +11,7 @@ body {
 h1,h2,h3 {
   color: #2364aa;
   font-family: "Cute Font";
+  font-weight: bold;
 }
 
 a {
@@ -36,10 +37,12 @@ a:hover {
 
 .img-circle {
   border-radius: 50%;
+  border: 2px solid #620c7c
 }
 
 .container {
   text-align: center;
+  margin: auto;
 }
 
 .card {
@@ -50,22 +53,4 @@ a:hover {
 
 .shadowed {
   box-shadow: 5px 5px 3px #620c7c;
-}
-
-@media (max-width: 960px) {
-  .container {
-    width: 700px;
-  }
-}
-
-@media (max-width: 720px) {
-  .container {
-    width: 500px;
-  }
-}
-
-@media (max-width: 540px) {
-  .container {
-    width: 300px;
-  }
 }
